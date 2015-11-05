@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for RohanKrishna.com",
+  "keywords": [
+    "wordpress",
+    "rohan"
+  ],
+  "authors": [
+    "Rohan Krishna"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.rohankrishna.com"
+}
