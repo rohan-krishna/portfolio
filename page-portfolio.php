@@ -42,7 +42,7 @@ get_header();
                         <i class="fa fa-linkedin"></i>
                     </div>
                 </a>
-                <a href="https://github.com/rohan-krishna" target="_blank" rel="author">
+                <a href="https://github.com/rohan-krishna" target="_blank" rel="authorread">
                     <div class="col-sm-3 hero-social icon-git">
                         <i class="fa fa-git"></i>
                     </div>
