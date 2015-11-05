@@ -1,7 +1,7 @@
-@import url("sass/bootstrap/bootstrap.css");
+
 /*
-Theme Name: portfolio
-Theme URI: http://underscores.me/
+Theme Name: Portfolio
+Theme URI: http://rohankrishna.com/portfolio
 Author: Rohan Krishna
 Author URI: http://www.rohankrishna.com
 Description: Portfolio Theme For Rohan Krishna.com
@@ -47,6 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 /* line 1, sass/_normalize.scss */
+@import url("sass/bootstrap/bootstrap.css");
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
