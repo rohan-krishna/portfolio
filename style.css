@@ -1696,3 +1696,9 @@ a {
 .site-footer h2 {
   color: #fff;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* line 657, sass/custom/_custom.scss */
+  .site-footer h2 {
+    font-size: 0.8em;
+  }
+}
