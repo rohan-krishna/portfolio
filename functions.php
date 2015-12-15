@@ -149,6 +149,20 @@ function rohan_portfolio_scripts() {
 add_action( 'wp_enqueue_scripts', 'rohan_portfolio_scripts' );
 
 /**
+ * Shortcodes
+ */
+
+//About Me Header Shortcode
+function about_header_shortcode_handler( $atts , $content = null ) {
+
+	// Attributes
+	$default = shortcode_atts( array(
+		'class' => 'about-header'
+		), $atts);
+	return '<h2 class="' . esc_attr($default['class']) . '">' . $content . '</h2>';
+}
+add_shortcode( 'aboutheader', 'about_header_shortcode_handler' );
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';

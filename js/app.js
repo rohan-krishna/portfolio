@@ -102,7 +102,7 @@ $(function() {
 
 		if(!$this.hasClass('closed')) {
 			TweenLite.to(objTwo,0.3,{height:0});
-			TweenLite.to(shadow,0.3,{opacity:0});
+			TweenLite.to(shadow,0.3,{opacity:0,display: 'none'});
 			$this.addClass('closed');
 			if(!$chev.hasClass('fa-chevron-down'))
 			{
@@ -111,8 +111,8 @@ $(function() {
 			}
 
 		} else {
-			TweenLite.to(objTwo,0.3,{height:'auto'});
-			TweenLite.to(shadow,0.3,{opacity:1});
+			TweenLite.to(objTwo,0.3,{height: 'auto'});
+			TweenLite.to(shadow,0.3,{opacity:1, display :'block'});
 			$this.removeClass('closed');
 			$chev.removeClass('fa-chevron-down').addClass('fa-chevron-up');
 		}

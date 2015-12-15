@@ -21,35 +21,36 @@ get_header();
         <div class="page-wrapper">
         <!-- Portfolio 159a8b4caa920cfa7974428f8d8cb791 -->
         <div class="portfolio-image">
-            <span class="top-bar">
-               <i class="fa fa-chevron-up" id="chevArrow"></i>
-            </span>
-            <span class="shadow hidden-xs"></span>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/159a8b4caa920cfa7974428f8d8cb791.jpg" draggable="false" id="imgMine" alt="<?php bloginfo('name'); ?>" />
-            <div class="col-sm-12" style="padding:0 !important;">
-                <a href="http://www.facebook.com/rohan30993" target="_blank" rel="author">
-                    <div class="col-sm-3 hero-social icon-fb">
-                        <i class="fa fa-facebook"></i>
+                    <span class="top-bar">
+                       <i class="fa fa-chevron-up" id="chevArrow"></i>
+                    </span>
+                    <span class="shadow hidden-xs"></span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/159a8b4caa920cfa7974428f8d8cb791.jpg" draggable="false" id="imgMine" alt="<?php bloginfo('name'); ?>" />
+                    <div class="col-sm-12" style="padding:0 !important;">
+                        <a href="http://www.facebook.com/rohan30993" target="_blank" rel="author">
+                            <div class="col-sm-3 hero-social icon-fb">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                        </a>
+                        <a href="http://www.twitter.com/rohan30993" target="_blank" rel="author">
+                            <div class="col-sm-3 hero-social icon-twitter">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </a>
+                        <a href="https://in.linkedin.com/pub/rohan-krishna/4b/662/a60" target="_blank" rel="author">
+                            <div class="col-sm-3 hero-social icon-linkedin">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/rohan-krishna" target="_blank" rel="authorread">
+                            <div class="col-sm-3 hero-social icon-git">
+                                <i class="fa fa-git"></i>
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a href="http://www.twitter.com/rohan30993" target="_blank" rel="author">
-                    <div class="col-sm-3 hero-social icon-twitter">
-                        <i class="fa fa-twitter"></i>
-                    </div>
-                </a>
-                <a href="https://in.linkedin.com/pub/rohan-krishna/4b/662/a60" target="_blank" rel="author">
-                    <div class="col-sm-3 hero-social icon-linkedin">
-                        <i class="fa fa-linkedin"></i>
-                    </div>
-                </a>
-                <a href="https://github.com/rohan-krishna" target="_blank" rel="authorread">
-                    <div class="col-sm-3 hero-social icon-git">
-                        <i class="fa fa-git"></i>
-                    </div>
-                </a>
-            </div>
         </div>
-
+        <?php the_content(); ?>
+        <?php /*
         <!-- Portfolio Introduction -->
         <h2 class="about-header">Hi,I'm Rohan.I'm a Front-End Software Engineer.I work with organisations and determined individuals to build websites and applications in real world.I'm currently freelancing.</h2>
 
@@ -111,8 +112,10 @@ get_header();
 
         </div>
         </div>
+        */ ?>
 
     <?php endwhile; endif; ?>
+    </div>
 </div>
 
 <?php

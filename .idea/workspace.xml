@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49eeb9f8-adeb-43bc-a486-77d69fbbe2fd" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\wp\wp-content\themes\portfolio\screenshot.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-    </list>
+    <list default="true" id="49eeb9f8-adeb-43bc-a486-77d69fbbe2fd" name="Default" comment="" />
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -67,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-portfolio.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-portfolio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.538462">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.5574913">
+              <caret line="39" column="77" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="77" />
               <folding>
                 <element signature="e#868#897#0#HTML" expanded="true" />
                 <marker date="1446727811315" expanded="true" signature="2297:2506" placeholder="..." />
@@ -123,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19767442">
+            <state vertical-scroll-proportion="-6.296296">
               <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
@@ -165,9 +162,9 @@
         <option value="$PROJECT_DIR$/template-parts/content-home.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/sass/custom/_custom.scss" />
-        <option value="$PROJECT_DIR$/page-portfolio.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/page-portfolio.php" />
       </list>
     </option>
   </component>
@@ -298,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16346154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -760,27 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.538462">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#868#897#0#HTML" expanded="true" />
-            <marker date="1446727811315" expanded="true" signature="2297:2506" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="3471:3574" placeholder="..." />
-            <marker date="1446727811315" expanded="false" signature="4560:4581" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="4582:5656" placeholder="..." />
-            <marker date="1446727811315" expanded="false" signature="4625:4646" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="4647:5018" placeholder="..." />
-            <marker date="1446727811315" expanded="false" signature="4712:4754" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="4755:4999" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="5053:5640" placeholder="..." />
-            <marker date="1446727811315" expanded="false" signature="5118:5160" placeholder="..." />
-            <marker date="1446727811315" expanded="true" signature="5161:5621" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
@@ -820,9 +796,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19767442">
+        <state vertical-scroll-proportion="-6.296296">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5574913">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="77" />
+          <folding>
+            <element signature="e#868#897#0#HTML" expanded="true" />
+            <marker date="1446727811315" expanded="true" signature="2297:2506" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="3471:3574" placeholder="..." />
+            <marker date="1446727811315" expanded="false" signature="4560:4581" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="4582:5656" placeholder="..." />
+            <marker date="1446727811315" expanded="false" signature="4625:4646" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="4647:5018" placeholder="..." />
+            <marker date="1446727811315" expanded="false" signature="4712:4754" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="4755:4999" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="5053:5640" placeholder="..." />
+            <marker date="1446727811315" expanded="false" signature="5118:5160" placeholder="..." />
+            <marker date="1446727811315" expanded="true" signature="5161:5621" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
